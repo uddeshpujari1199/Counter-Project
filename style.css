@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    
+  }
+  
+  .counter-container {
+    text-align: center;
+    border: none;
+    padding: 20px;
+    background-color:   #4CAF50;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: larger;
+    
+  }
+  
+  button {
+    font-size: 1.5em;
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 20px;
+    width: 200px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: example;
+  animation-duration: 4s;
+   
+  }
+
+  button:hover{
+    background-color: rgb(226, 231, 231);
+    
+  }
+  #count{
+    border: none;
+    width: 200px;
+    height: 100px;
+    margin-left: 35%;
+    align-items: center;
+    padding-top: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    animation-name: example;
+  animation-duration: 4s;
+   
+  }
+
+  @keyframes example {
+    from {
+        transform: translateY(20px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+  }
+  
